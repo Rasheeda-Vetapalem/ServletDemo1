@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style type="text/css">
+table {
+	width: 50%;
+	border-collapse: collapse;
+	background-color: wheat;
+	border-spacing: 10px;
+}
+
+TABLE, TR, TD {
+	border: 1px solid blue;
+}
+
+th, td {
+	padding: 20px;
+}
+</style>
+</head>
+<body>
+	<form action="UserRegisterServlet">
+		<h1
+			style="background-color: maroon; color: white; padding: 20px; text-align: center;">
+			Welcome to Registration page</h1>
+		<table align=center>
+			<tr>
+				<td>Enter name:</td>
+				<td><input type=text name="ename"></td>
+			</tr>
+			<tr>
+				<td>Enter contact number:</td>
+				<td><input type=text name="contactno"></td>
+			</tr>
+			<tr>
+				<td>Email Id:</td>
+				<td><input type=text name="email"></td>
+			</tr>
+			<tr>
+				<td>Enter gender:</td>
+				<td><input type=radio name=gender value="Male">Male
+				<input type=radio name=gender value="Female">Femaale </td>
+			</tr>
+			<tr>
+				<td>Address:</td>
+				<td>
+				<textarea  name=address rows=5 cols=20></textarea></td>
+			</tr>
+			<tr>
+				<td colspan="2" align=cemter><input type=submit value=click></td>
+			</tr>
+
+		</table>
+	</form>
+</body>
+</html>
